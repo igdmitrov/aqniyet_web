@@ -1,0 +1,23 @@
+{
+    "email_confirmed": "Email confirmed",
+    "password": "Password",
+    "loading": "Loading",
+    "confirm_password": "Confirm Password",
+    "password_dont_match": "Password do not match",
+    "password_required": "Password is required",
+
+    "password_length_error": "Password must be at least {minLengthPassword} digits long",
+    "@password_length_error": {
+        "description": "Password length error",
+        "placeholders": {
+            "minLengthPassword": {
+                "type": "int",
+                "example": "8"
+            }
+        }
+    },
+
+    "save": "Save",
+    "password_changed": "Password was changed",
+    "reset_password": "Reset password"
+}

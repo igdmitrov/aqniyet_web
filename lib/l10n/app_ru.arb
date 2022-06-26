@@ -1,0 +1,24 @@
+{
+    "email_confirmed": "Email подтвержден",
+    "password": "Пароль",
+    "loading": "Загрузка",
+    "confirm_password": "Подтвердить пароль",
+    "user_created": "Пользователь создан",
+    "password_dont_match": "Пароль не совпадает",
+    "password_required": "Необходимо указать пароль",
+
+    "password_length_error": "Пароль должен быть минимум {minLengthPassword} символов",
+    "@password_length_error": {
+        "description": "Ошибка длины пароля",
+        "placeholders": {
+            "minLengthPassword": {
+                "type": "int",
+                "example": "8"
+            }
+        }
+    },
+
+    "save": "Сохранить",
+    "password_changed": "Пароль изменен",
+    "reset_password": "Сброс пароля"
+}
