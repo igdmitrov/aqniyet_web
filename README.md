@@ -1,16 +1,22 @@
-# aqniyet_web
+# AqNiyet
 
-A new Flutter project.
+Web application on Flutter to confirm email and reset password from Supabase callback.
 
-## Getting Started
+## Requests
 
-This project is a starting point for a Flutter application.
+Change password callback:
 
-A few resources to get you started if this is your first Flutter project:
+```html
+http://localhost:3000/#access_token=<access_token>&expires_in=1000&refresh_token=<refresh_token>&token_type=bearer&type=recovery
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Email confirmed callback:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```html
+http://localhost:3000/#access_token=<access_token>&expires_in=1000&refresh_token=<refresh_token>&token_type=bearer&type=email_change
+```
+
+Error callback:
+```html
+http://localhost:3000/#error_code=404&error_description=User+not+found
+```
