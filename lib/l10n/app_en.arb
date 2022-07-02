@@ -3,6 +3,7 @@
     "password": "Password",
     "loading": "Loading",
     "confirm_password": "Confirm Password",
+    "user_created": "User was created",
     "password_dont_match": "Password do not match",
     "password_required": "Password is required",
 

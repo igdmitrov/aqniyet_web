@@ -7,6 +7,7 @@ import 'pages/email_confirmed_page.dart';
 import 'pages/error_page.dart';
 import 'pages/main_page.dart';
 import 'pages/password_recovery_page.dart';
+import 'pages/privacy_page.dart';
 import 'utils/constants.dart';
 
 Future<void> main() async {
@@ -50,6 +51,12 @@ class MyApp extends StatelessWidget {
           );
         }
         final String url = settings.name!;
+
+        if (url == PrivacyPage.routeName) {
+          return MaterialPageRoute(
+            builder: (_) => const PrivacyPage(),
+          );
+        }
 
         if (url.contains('error_code')) {
           final errorCode = getParameterFromUrl('error_code', url);
